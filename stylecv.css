@@ -1,0 +1,262 @@
+
+/* En-tête page*/
+.bloc_page{
+    width: 1190px;
+    margin: auto;
+    border: solid 2px #FFB74D;
+    display: flex;
+}
+
+body{
+    height: 100%;
+    position: relative;
+}
+header{
+    display: flex;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.titre_doc{
+    text-align: left;  
+    margin-left: 20%; 
+    margin-top: 60px;
+}
+
+.sous_titre{
+   font-size: 1.5em;
+}
+
+span.souligné{
+    
+    text-decoration: underline #FFB74D; 
+    height: 2px;
+}
+
+
+/* Bannière*/
+aside{
+    background-color: #FFB74D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+img{
+    border-radius: 600px;
+}
+
+.photo{
+    text-align: center;
+    margin-top: 15px;
+}
+
+p{
+    text-align: justify;
+    margin-right: 2px;
+    padding-left: 10px;
+}
+
+#bloc-droit{
+   padding-left: 2%;
+   padding-right: 2%;
+}
+
+.section_banniere{
+    border: solid 1px #FFB74D;
+    background-color: #FFB74D;
+    color: #37474F;
+    text-align: center;
+    margin-top: 0;
+}
+
+.Texte_Lorem{
+    text-align: justify;
+    margin-right: 10px;
+}
+
+
+/* Corps principal du document */
+
+#puces{
+    width: 30%;
+    margin-left: 0;
+    display: flex;
+}
+.bloc_date_et_contenu{
+    display: flex;
+    align-items: center;
+}
+
+.bloc_date{
+    width: 30%;
+}
+
+#seconde_partie{  
+    display: flex;
+    align-items: center;
+    width: 100%
+}
+
+#partie_gauche{
+    background-color: #FFB74D;
+    width: 45%;
+}
+
+#partie_droite{
+    width: 65%;
+    margin: auto;
+}
+
+.section_centrale{
+    width: 30%;
+}
+div .section_centrale{
+
+
+}
+.section_droite{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 200px;
+}  
+
+h1{
+     font-size: 2.6em;  
+}
+
+h1 span{
+    color: #FFB74D;
+}
+a, .fas{
+    color: #FFB74D;
+    font-size: 7px;
+    margin-top: 54px;
+}
+
+.far{
+   color: #FFB74D;
+    font-size: 14px; 
+    font-weight: 400;
+}
+
+.fa-graduation-cap, .fa-pencil-alt, .fa-briefcase{
+    font-size: 21px;
+    color: #FFB74D;
+}
+
+h3{
+    display: block;
+    color: #FFB74D;
+    background-color: #37474F;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+h2{
+    color: #37474F;  
+    font-size: 1.6em;
+    display: block;  
+    margin-block-start: 2.5em;
+    font-weight: bold;
+    border-bottom: solid 2px #FFB74D;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#main{
+    position: relative;
+    padding-bottom: 100%;
+}
+
+/* footer*/
+
+#footer_left{  
+    text-align: center;
+    padding-top: 380px;
+}
+
+#footer_droit{
+    padding-top: 16em;
+}
+
+footer h3{
+    display: block;
+    text-align:center;
+    color: #37474F;
+    background-color: #37474F;
+    font-size: 22px;
+    overflow: hidden;
+    margin-block-end: -2em;
+}  
+
+.icones_sport{
+    text-align: center; 
+    border-radius: 50% 50%;
+    justify-content: space-evenly;
+    display: flex;
+}
+ 
+
+
+.fa-paw, .fa-baseball-ball{   
+    display: block;
+    font-size: 71px;  
+    color: #37474F;     
+    font-weight: 900;
+    line-height: 1;
+}
+
+.zumba{
+    padding-top: 50px;
+}
+
+
+footer .section_centrale{
+    margin-top:-4px;
+    margin-left: 1px;
+    display: block;   
+    margin-block-start: 1em;
+    margin-block-end: 2em;
+    margin-inline-start: 2em;
+    margin-inline-end: 0px;
+}
+
+ footer .bloc_section_droite{
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+
+#footer_right{
+    display: flex;  
+    align-items: center;
+}
+
+.derniere_partie{
+    margin-top: -220px;
+}
+
+
+
+/* Responsive*/
+@media all and (max-width: 425px){
+
+    #partie_gauche{
+        width: unset;
+    }
+
+    main{
+       flex-direction: column;
+       width: auto; 
+       font-size: 30px;
+    }
+}
+
+
+
+
+
